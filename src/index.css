@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  min-height: 4rem /* 64px */;
+  width: 100%;
+}
+:where(.navbar > *:not(script, style)) {
+  display: inline-flex;
+  align-items: center;
+}
