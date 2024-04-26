@@ -3,12 +3,24 @@ import Navbar from "../../Components/Share/Navbar";
 import person from "../../assets/images/about_us/person.jpg";
 import parts from "../../assets/images/about_us/parts.jpg";
 import ButtonPrimary from "../../Components/Share/ButtonPrimary";
+import MIddleText from "./MIddleText";
+import Black from "./Black";
+import ProductCard from "../../Components/Cards/ProductCard";
+import ServiceCard from "../../Components/Cards/ServiceCard";
+import CoreFeatures from "./CoreFeatures";
+import Footer from "../../Components/Share/Footer";
 const Home = () => {
   return (
     <div className="mx-10">
       <Navbar />
       <Cursol />
       <Experincefild />
+      <MIddleText />
+      <Black/>
+      <ProductCard/>
+      <ServiceCard/>
+      <CoreFeatures/>
+      <Footer/>
     </div>
   );
 };
@@ -42,7 +54,9 @@ const Experincefild = () => {
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don't look even slightly believable.
         </p>
-        <button className="btn bg-[#ff3811] hover:bg-[#ff0000] text-white border-none">Get More Info</button>
+        <button className="btn bg-[#ff3811] hover:bg-[#ff0000] text-white border-none">
+          Get More Info
+        </button>
       </div>
     </div>
   );

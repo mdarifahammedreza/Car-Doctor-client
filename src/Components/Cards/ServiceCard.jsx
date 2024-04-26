@@ -10,7 +10,6 @@ const ServiceCard = () => {
         <FaArrowRight />
       </div>
     </div>
-   
   );
 };
 
