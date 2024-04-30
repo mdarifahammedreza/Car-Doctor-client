@@ -170,3 +170,4 @@ const CoreFeatures = () => {
 };
 
 export default CoreFeatures;
+

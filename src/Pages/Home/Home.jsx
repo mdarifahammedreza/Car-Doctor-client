@@ -9,6 +9,7 @@ import ProductCard from "../../Components/Cards/ProductCard";
 import ServiceCard from "../../Components/Cards/ServiceCard";
 import CoreFeatures from "./CoreFeatures";
 import Footer from "../../Components/Share/Footer";
+import TeamCard from "../../Components/Cards/TeamCard";
 const Home = () => {
   return (
     <div className="mx-10">
@@ -16,11 +17,21 @@ const Home = () => {
       <Cursol />
       <Experincefild />
       <MIddleText />
-      <Black/>
-      <ProductCard/>
-      <ServiceCard/>
-      <CoreFeatures/>
-      <Footer/>
+      <ServiceCard />
+      <div className="flex justify-center my-10">
+        <ButtonPrimary ink={"products"} txt={"More Products"} />
+      </div>
+      <Black />
+      <MIddleText />
+      <ProductCard />
+      <div className="flex justify-center my-10">
+        <ButtonPrimary ink={"services"} txt={"More Services"} />
+      </div>
+      <MIddleText />
+      <TeamCard />
+      <MIddleText />
+      <CoreFeatures />
+      <Footer />
     </div>
   );
 };

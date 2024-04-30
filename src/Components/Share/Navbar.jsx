@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { IoIosSearch } from "react-icons/io";
 import "./../../../src/index.css";
-import ButtonPrimary from "./ButtonPrimary";
 import { IoCartOutline } from "react-icons/io5";
+import ButtonPrimary from "./ButtonPrimary";
 
 const Navbar = () => {
   return (
@@ -151,7 +151,7 @@ const Navbar = () => {
           <IoCartOutline />
         </Link>
 
-        <ButtonPrimary text={"Appointment"} />
+        <ButtonPrimary ink={"appointment"} txt={"Appointment"} />
       </div>
     </div>
   );
