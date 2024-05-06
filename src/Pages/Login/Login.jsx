@@ -1,4 +1,4 @@
-import loginImage from "../../assets/login.svg";
+import loginImage from "../../../src/assets/images/login/login.svg";
 const Login = () => {
   return (
     <div className="hero min-h-screen bg-base-200">
